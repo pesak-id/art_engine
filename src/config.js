@@ -6,6 +6,9 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Your Collection";
+const fee_recipient = "0x0Fee91dC8De1F052837A9e40C66954debF0d8383";
+const seller_fee_basis_points = 100; //# Indicates a 1% seller fee.
+const creator = "Mandaloka";
 const description = "Remember to replace this description";
 const baseUri = "ipfs://NewUriToReplace";
 
@@ -115,6 +118,9 @@ module.exports = {
   pixelFormat,
   text,
   namePrefix,
+  creator,
+  fee_recipient,
+  seller_fee_basis_points,
   network,
   solanaMetadata,
   gif,
