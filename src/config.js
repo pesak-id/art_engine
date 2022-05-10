@@ -5,19 +5,19 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
+const namePrefix = "Dragon";
 const fee_recipient = "0x0Fee91dC8De1F052837A9e40C66954debF0d8383";
 const seller_fee_basis_points = 100; //# Indicates a 1% seller fee.
 const creator = "Mandaloka";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const description = "10000 Dragon waiting to hatch";
+const baseUri = "ipfs://Qmbehwrs3vfgqE8id9ekyhp4CZaDxXUoVkUyYLBCpNSHpA";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "DGN",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "DD874MgQMcqBsBShXSDdgwgcY3GFQ6aCss27xEKqgLaV",
       share: 100,
     },
   ],
@@ -26,13 +26,13 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
       { name: "Head" },
       { name: "Pattern" },
-      { name: "Clothes" },
+      //{ name: "Clothes" },
       { name: "Eyes" },
       { name: "Face" },
       { name: "Accessories" },
@@ -45,8 +45,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1080,
+  height: 1080,
   smoothing: false,
 };
 
