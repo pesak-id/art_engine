@@ -5,7 +5,7 @@ const { creator, seller_fee_basis_points, fee_recipient } = require("./config");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
 const buildDir = `${basePath}/build`;
-const layersDir = `${basePath}/layers`;
+const layersDir = `${basePath}/layers/dragon/`;
 const {
   format,
   baseUri,
