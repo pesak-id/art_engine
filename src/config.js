@@ -5,15 +5,15 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Flemish";
+const namePrefix = "Dragon";
 const fee_recipient = "0x0Fee91dC8De1F052837A9e40C66954debF0d8383";
 const seller_fee_basis_points = 100; //# Indicates a 1% seller fee.
 const creator = "Conundrum";
-const description = "10000 Flemish Society born into the world";
+const description = "10000 Dragon invade the world";
 const baseUri = "ipfs://_CID_";
 
 const solanaMetadata = {
-  symbol: "FLM",
+  symbol: "DGN",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
