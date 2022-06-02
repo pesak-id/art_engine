@@ -8,9 +8,9 @@ const network = NETWORK.eth;
 const namePrefix = "Dragon";
 const fee_recipient = "0x0Fee91dC8De1F052837A9e40C66954debF0d8383";
 const seller_fee_basis_points = 100; //# Indicates a 1% seller fee.
-const creator = "Conundrum";
+const creator = "Mandaloka";
 const description = "10000 Dragon invade the world";
-const baseUri = "ipfs://_CID_";
+const baseUri = "ipfs://QmP1vQKEios7jYUKVjWCxr4PZXbvTRzaVEpr2dt2SXhYmd";
 
 const solanaMetadata = {
   symbol: "DGN",
@@ -26,7 +26,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 10000,
     layersOrder: [
       // RABBIT
       // { name: "Background" },
