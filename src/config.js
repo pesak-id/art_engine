@@ -5,15 +5,15 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Dragon";
-const fee_recipient = "0x0Fee91dC8De1F052837A9e40C66954debF0d8383";
+const namePrefix = "Smol";
+const fee_recipient = "0x6E791A3133d3eedeDA7849Bad68c5745909036Cb";
 const seller_fee_basis_points = 100; //# Indicates a 1% seller fee.
-const creator = "Mandaloka";
-const description = "10000 Dragon invade the world";
-const baseUri = "ipfs://QmP1vQKEios7jYUKVjWCxr4PZXbvTRzaVEpr2dt2SXhYmd";
+const creator = "Conundrum";
+const description = "SMOL is furry and fluffy creature from Mars";
+const baseUri = "ipfs://_CID_";
 
 const solanaMetadata = {
-  symbol: "DGN",
+  symbol: "SML",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   creators: [
     {
@@ -26,7 +26,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 2222,
     layersOrder: [
       // RABBIT
       // { name: "Background" },
@@ -59,10 +59,17 @@ const layerConfigurations = [
 
       // DRAGON
       //{ name: "Background" },
-      { name: "Body" },
-      { name: "Eyes" },
-      { name: "Face" },
+      // { name: "Body" },
+      // { name: "Eyes" },
+      // { name: "Face" },
+      // { name: "Accessories" },
+
+      // SMOL
+      { name: "Background" },
+      { name: "Fur" },
       { name: "Accessories" },
+      { name: "Eyes" },
+      { name: "Headwear" },
     ],
   },
 ];
